@@ -10,6 +10,7 @@ public class HomeController {
 	@RequestMapping(value = {"/", "/index"})
 	public String home(Model model) {
 		System.out.println("stash 테스트 B유저");
+		System.out.println("A 유저가 수정 햇어요! stash로 해결할꺼야!");
 		System.out.println("충돌 테스트 수정 햇어!");
 		System.out.println("git stash 테스트! #3");
 		model.addAttribute("message", "eGovFrame 프로젝트가 정상적으로 실행되었습니다.");
