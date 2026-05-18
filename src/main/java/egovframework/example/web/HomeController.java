@@ -10,6 +10,7 @@ public class HomeController {
 	@RequestMapping(value = {"/", "/index"})
 	public String home(Model model) {
 		System.out.println("work2 : 충돌 테스트!");
+		System.out.println("work2 : 충돌 테스트!");
 		System.out.println("work1 : 테스트!");
 		System.out.println("work1 : 충돌 테스트!");
 		System.out.println("work1 : git 테스트 #1");
